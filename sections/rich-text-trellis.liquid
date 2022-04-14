@@ -30,7 +30,7 @@
 {% endif %}  
 
 <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
-  <div class="rich-text rich-text-by-trellis content-container {% if section.settings.show_overlay %}rich-text-by-trellis-overlay{% endif %}{% if section.settings.full_width %} rich-text--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding twcss-bg-center twcss-bg-no-repeat {% if section.settings.bkg_size == 'cover'%}twcss-bg-cover{% else %}twcss-bg-contain{% endif %}" style="background-color: {{ section.settings.bkg_color }};{% if bkgImage != blank %}background-image:url('{{ bkgImage }}'){% endif %}">
+  <div class="rich-text rich-text-by-trellis content-container {% if section.settings.show_overlay %}rich-text-by-trellis-overlay{% endif %}{% if section.settings.full_width %} rich-text--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding twcss-bg-center twcss-bg-no-repeat {% if section.settings.bkg_size == 'cover' %}twcss-bg-cover{% else %}twcss-bg-contain{% endif %}" style="background-color: {{ section.settings.bkg_color }};{% if bkgImage != blank %}background-image:url('{{ bkgImage }}'){% endif %}">
     <div class="rich-text__blocks">
       {%- for block in section.blocks -%}
         {%- case block.type -%}
