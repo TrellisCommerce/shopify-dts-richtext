@@ -1,5 +1,7 @@
 # Dawn TailWindCSS Starter Component - RichText with improvements
 
+![Full Background Page – christy-sandbox 2022-04-14 at 6 43 52 PM](https://user-images.githubusercontent.com/32713913/163481695-9f730024-6246-499a-8da0-246958d7736d.jpg)
+
 Improvement for Shopify's Dawn theme RichText section. New options added:
 
 - Background Color
